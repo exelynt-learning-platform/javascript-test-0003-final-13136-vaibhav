@@ -4,7 +4,7 @@ for (let i = 1; i <= 5; i++) {
 
     for (let j = 1; j <= i; j++) {
 
-        if ((i + j) % 2 === 0) {
+        if ((i + j) % 2 === 0) { 
             row += "1";
         } else {
             row += "0";
